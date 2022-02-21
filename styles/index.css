@@ -3,18 +3,29 @@ body {
     margin: 0;
 }
 
-.main-background {
+.banner-background {
+    position: fixed;
     height: 100vh;
-    background-image: url('../public/pokemon-landscape1.png');
+    width: 100vw;
+    background-image: url('../public/pokemonlandscape1.png');
     background-size: cover;
 }
 
 .banner-text {
-    animation: floating 2s ease-in-out infinite
+    animation: floating 2s ease-in-out infinite;
 }
 
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin-top-17 {
+    margin-top: 17rem;
+}
 @keyframes floating {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
+    100%   { transform: translate(0, 0px); }   
 }
