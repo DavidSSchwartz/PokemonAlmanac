@@ -11,10 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 8080"
   },
   "author": "",
   "license": "ISC"
